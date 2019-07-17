@@ -7,10 +7,12 @@
 ## Contents
 
 Dockerfile describing a docker containing:
-  - Ubuntu 18.04.*
-  - OpenJDK 8 JRE
+  - Debian Buster
+  - GraalVM 19.1.0 JRE
 
 ## Build and Publish
+
+Check the complete list of available commands to build and publish this docker image by running:
 
 ```sh
 make help
